@@ -9,7 +9,7 @@ Keychain wrapper that retrieves ssh/gpg key passphrases from 1password
 ```
 pinentry-program /usr/bin/pinentry-tty
 ```
-* Install with `pip install git+https://github.com/pricheal/refreshkeys.git`
+* Install with `pip install git+https://github.com/isaccanedo/refreshkeys.git`
 * Add the following to your `.bashrc`:
 ```
 eval $(refreshkeys --eval --if-needed)
